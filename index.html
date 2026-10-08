@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nooki | Inteligencia Artificial, Chatbots, Automatizaciones y Sistemas POS</title>
+  <meta name="description" content="Nooki ofrece servicios de inteligencia artificial para empresas: chatbots para WhatsApp y web, automatización de procesos y sistemas POS.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="#" class="logo"><span class="logo-dot"></span>Nooki</a>
+      <button class="menu-btn" aria-label="Abrir menú">☰</button>
+      <nav class="links">
+        <a href="#servicios">Servicios</a>
+        <a href="#proceso">Cómo trabajamos</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#contacto" class="btn btn-sm">Contáctanos</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <span class="badge">Soluciones de IA para empresas</span>
+        <h1>Hacemos que tu negocio <span class="grad">trabaje solo</span></h1>
+        <p class="lead">En Nooki desarrollamos chatbots con inteligencia artificial, automatizamos procesos y vendemos sistemas POS para que tu empresa atienda mejor, venda más y ahorre tiempo.</p>
+        <div class="cta">
+          <a href="#contacto" class="btn">Solicitar información</a>
+          <a href="#servicios" class="btn btn-ghost">Ver servicios</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="servicios" class="section">
+      <div class="container">
+        <h2>Nuestros servicios</h2>
+        <p class="sub">Tecnología práctica, implementada a la medida de tu negocio.</p>
+        <div class="grid">
+          <article class="card">
+            <div class="icon">💬</div>
+            <h3>Chatbots con IA</h3>
+            <p>Asistentes virtuales para WhatsApp, Instagram, Messenger y tu sitio web que responden a tus clientes 24/7, toman pedidos y agendan citas.</p>
+          </article>
+          <article class="card">
+            <div class="icon">⚙️</div>
+            <h3>Automatización de procesos</h3>
+            <p>Conectamos tus herramientas y eliminamos tareas repetitivas: facturación, reportes, seguimiento de clientes, inventarios y más.</p>
+          </article>
+          <article class="card">
+            <div class="icon">🧾</div>
+            <h3>Sistemas POS</h3>
+            <p>Puntos de venta modernos para restaurantes, tiendas y negocios: ventas, inventario, caja y reportes en tiempo real.</p>
+          </article>
+          <article class="card">
+            <div class="icon">🧠</div>
+            <h3>Consultoría en IA</h3>
+            <p>Te ayudamos a identificar dónde la inteligencia artificial genera más valor en tu empresa y a implementarla paso a paso.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="proceso" class="section alt">
+      <div class="container">
+        <h2>Cómo trabajamos</h2>
+        <div class="steps">
+          <div class="step"><span>1</span><h3>Diagnóstico</h3><p>Analizamos tu negocio y tus procesos actuales.</p></div>
+          <div class="step"><span>2</span><h3>Propuesta</h3><p>Diseñamos la solución y te presentamos un plan claro.</p></div>
+          <div class="step"><span>3</span><h3>Implementación</h3><p>Desarrollamos, integramos y capacitamos a tu equipo.</p></div>
+          <div class="step"><span>4</span><h3>Soporte</h3><p>Acompañamiento continuo y mejoras constantes.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="nosotros" class="section">
+      <div class="container about">
+        <div>
+          <h2>Sobre Nooki</h2>
+          <p>Nooki es una empresa de tecnología dedicada a llevar la inteligencia artificial a pequeñas y medianas empresas. Creemos que cualquier negocio puede automatizar su atención al cliente y sus operaciones sin complicaciones.</p>
+          <p>Trabajamos con plataformas oficiales como la API de WhatsApp Business de Meta para ofrecer comunicaciones seguras y confiables con tus clientes.</p>
+        </div>
+        <div class="stats">
+          <div><strong>24/7</strong><span>Atención automatizada</span></div>
+          <div><strong>+70%</strong><span>Menos tareas manuales</span></div>
+          <div><strong>100%</strong><span>Soluciones a la medida</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="section alt">
+      <div class="container contact">
+        <div>
+          <h2>Contáctanos</h2>
+          <p class="sub">Cuéntanos sobre tu negocio y te respondemos a la brevedad.</p>
+          <ul class="info">
+            <li><b>Empresa:</b> Nooki</li>
+            <li><b>Correo:</b> <a href="mailto:contacto@nooki.com">contacto@nooki.com</a></li>
+            <li><b>Teléfono / WhatsApp:</b> +00 000 000 0000</li>
+            <li><b>Dirección:</b> Ciudad, País</li>
+          </ul>
+        </div>
+        <form id="form" class="form">
+          <input name="nombre" placeholder="Nombre" required>
+          <input name="email" type="email" placeholder="Correo electrónico" required>
+          <select name="servicio">
+            <option>Chatbots con IA</option>
+            <option>Automatización de procesos</option>
+            <option>Sistemas POS</option>
+            <option>Consultoría en IA</option>
+          </select>
+          <textarea name="mensaje" rows="4" placeholder="Mensaje"></textarea>
+          <button class="btn" type="submit">Enviar</button>
+          <p id="form-msg" class="form-msg" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Nooki. Todos los derechos reservados.</p>
+      <nav><a href="privacidad.html">Política de privacidad</a><a href="terminos.html">Términos y condiciones</a></nav>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
